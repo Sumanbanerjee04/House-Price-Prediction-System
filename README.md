@@ -6,7 +6,7 @@ Built an end-to-end *House Price Prediction* system using *Python, Pandas, and X
 ---
 
 ## Table of Contents 📚
-- [Project Overview](#project-overview)  
+- [Project Overview 🧠](#project-overview)  
 - [Key Features](#key-features)  
 - [Dataset](#dataset)  
 - [Notebook Files](#notebook-files)  
