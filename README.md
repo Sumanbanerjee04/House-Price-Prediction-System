@@ -6,7 +6,7 @@ Built an end-to-end *House Price Prediction* system using *Python, Pandas, and X
 ---
 
 ## Table of Contents 📚
-- [Project Overview 🧠](#project-overview)  
+- [Project Overview🧠](#project-overview)  
 - [Key Features](#key-features)  
 - [Dataset](#dataset)  
 - [Notebook Files](#notebook-files)  
@@ -21,7 +21,7 @@ Built an end-to-end *House Price Prediction* system using *Python, Pandas, and X
 
 ---
 
-## Project Overview 🧠
+## Project Overview🧠
 This project builds a regression model to predict house prices using the California Housing dataset from sklearn. The pipeline covers exploratory data analysis (EDA), preprocessing, feature engineering, model training with *XGBoost*, evaluation, and interpretation/visualization.
 
 ## Key Features ⚙️
