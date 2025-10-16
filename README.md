@@ -7,49 +7,49 @@ Built an end-to-end *House Price Prediction* system using *Python, Pandas, and X
 
 ## Table of Contents 📚
 - [Project Overview🧠](#project-overview)  
-- [Key Features](#key-features)  
-- [Dataset](#dataset)  
-- [Notebook Files](#notebook-files)  
-- [Requirements](#requirements)  
-- [Installation & Setup](#installation--setup)  
-- [How to run](#how-to-run)  
-- [Model & Results](#model--results)  
-- [Reproducibility](#reproducibility)  
-- [Next steps](#next-steps)  
-- [License](#license)  
-- [Contact](#contact)
+- [Key Features⚙️](#key-features)  
+- [Dataset🏘️](#dataset)  
+- [Notebook Files📓](#notebook-files)  
+- [Requirements🧩](#requirements)  
+- [Installation & Setup⚡](#installation--setup)  
+- [How to run▶️](#how-to-run)  
+- [Model & Results📊](#model--results)  
+- [Reproducibility🔁](#reproducibility)  
+- [Next steps / Improvements🚀](#next-steps)  
+- [License📝](#license)  
+- [Contact📬](#contact)
 
 ---
 
 ## Project Overview🧠
 This project builds a regression model to predict house prices using the California Housing dataset from sklearn. The pipeline covers exploratory data analysis (EDA), preprocessing, feature engineering, model training with *XGBoost*, evaluation, and interpretation/visualization.
 
-## Key Features ⚙️
+## Key Features⚙️
 - End-to-end ML pipeline (EDA → preprocess → train → evaluate).  
 - Feature analysis and visualization (correlation heatmap, distributions).  
 - XGBoost regressor with hyperparameter tuning and performance reporting.  
 - Model evaluation using R² and MAE; reproducible splits.
 
-## Dataset 🏘️
+## Dataset🏘️
 - **Source** : sklearn.datasets.fetch_california_housing() (California Housing dataset).  
 - **Typical features** : MedInc, HouseAge, AveRooms, AveBedrms, Population, AveOccup, Latitude, Longitude and target MedianHouseValue.
 
-## Notebook Files 📓
+## Notebook Files📓
 - **House_Price_Prediction_Project.ipynb** — main Jupyter notebook with all code, EDA, model training, and plots.
 
-## Requirements 🧩
+## Requirements🧩
 Example requirements.txt (add to repo):
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-xgboost
-joblib
-jupyter
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
+- xgboost
+- joblib
+- jupyter
 
 
-## Installation & Setup ⚡
+## Installation & Setup⚡
  **1. Create & activate a virtual environment** :
 ```bash
 python -m venv venv
@@ -62,7 +62,7 @@ venv\Scripts\Activate.ps1
 ```bash
 pip install -r requirements.txt
 ```
-## How to run ▶️
+## How to run▶️
 Open the project folder and start Jupyter Notebook:
 ```bash
 jupyter notebook Project1_.ipynb
@@ -80,7 +80,7 @@ import joblib
 model = joblib.load("xgboost_house_model.joblib")
 preds = model.predict(X_new)
 ```
-## Model & Results 📊
+## Model & Results📊
 - **Model** : XGBoost Regressor (with basic tuning).
 
 - **Reported performance (example)** : R² ≈ 0.85 on test set — indicates strong predictive ability on the California housing data.
@@ -89,12 +89,12 @@ preds = model.predict(X_new)
 
 - Visualized residuals and predicted vs actual plots are included in the notebook.
 
-## Reproducibility 🔁
+## Reproducibility🔁
 - train_test_split(..., random_state=2) is used for consistent splits.
 
 - Set seeds (e.g., random_state / seed in XGBoost) if you require bit-for-bit reproducibility.
 
-## Next steps / Improvements 🚀
+## Next steps / Improvements🚀
 - Hyperparameter optimization (GridSearchCV / RandomizedSearchCV).
 
 - Cross-validation and ensembling (LightGBM, RandomForest).
@@ -105,8 +105,8 @@ preds = model.predict(X_new)
 
 - Add unit tests and CI for model training & scoring.
 
-## License 📝
+## License📝
 This project is provided under the MIT License — feel free to reuse and adapt.
 
-## Contact 📬
+## Contact📬
 If you want help improving the notebook, adding hyperparameter tuning, or deploying the model, open an issue or contact me at: <suman09012004@gmail.com>
