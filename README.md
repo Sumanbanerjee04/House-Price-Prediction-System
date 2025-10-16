@@ -61,27 +61,19 @@ source venv/bin/activate
 venv\Scripts\Activate.ps1
 Install dependencies:
 
-bash
-Copy code
 pip install -r requirements.txt
 How to run
 Open the project folder and start Jupyter Notebook:
 
-bash
-Copy code
 jupyter notebook Project1_.ipynb
 Run cells sequentially. The notebook is self-contained and downloads the dataset automatically via sklearn on first run.
 
 (Optional) Save the trained model:
 
-python
-Copy code
 import joblib
 joblib.dump(trained_model, "xgboost_house_model.joblib")
 (Optional) Load the saved model later:
 
-python
-Copy code
 model = joblib.load("xgboost_house_model.joblib")
 preds = model.predict(X_new)
 Model & Results
